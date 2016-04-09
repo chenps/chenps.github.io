@@ -1,11 +1,9 @@
-# 3-Jekyll Theme
+# 个人博客托管仓库
 
-新版 3-Jekyll，当前完成度 80%，预览请访问 [http://peiwen.lu](http://peiwen.lu)，[Github repo](https://github.com/P233/P233.github.io)。
+托管chenps个人博客代码，采用jekyll建立，使用3-Jekyll主题，主题开源地址:https://github.com/P233/3-Jekyll
+PS:感谢Peiwen Lu提供的主题，主题作者github（https://github.com/P233）
 
-旧版请在 [https://github.com/P233/3-Jekyll/releases](https://github.com/P233/3-Jekyll/releases) 下载。
-
-
-## 针对旧版的改进
+## 主题相关
 
 * 侧边栏使用 Tag 或 Category 做为文章分类，默认 Tag。
 * 自动生成侧边栏分类标签，基本不需要修改模板文件。但标签顺序由 Jekyll 根据时间顺序生成，需要手动调整顺序只能修改 `_includes/sidebar.html`，格式是 `<li class="sidebar-tag" data-filter="TAG">TAG</li>`，替换 `TAG`，大小写敏感。
